@@ -8,6 +8,18 @@
 	position: relative;
 }
 
+.nav {
+	> ul {
+		> li:hover {
+			color: grey;
+		}
+	}
+}
+
+nav {
+	font-weight: bold;
+}
+
 .language-nav {
 	position: absolute;
 	top: -15px;
